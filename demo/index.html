@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="shareDemo" ng-controller="demoCtrl">
+<button share
+        share-provider="Facebook"
+        share-type="sharer"
+        share-text="Quivr"
+        share-url="http://quivr.be"
+        share-popup-height="300"
+        share-popup-width="400">
+    Share on Facebook (directive)
+</button>
+<button class="btn btn-medium font-bold"
+        ng-click="click()">
+    <i class="fa fa-facebook"></i> Share on Facebook (service)
+</button>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="../lib/angular-share.js"></script>
+<script src="../lib/plugin/share.facebook.provider.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

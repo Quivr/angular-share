@@ -1,0 +1,27 @@
+{
+  "name": "angular-share",
+  "version": "0.1.0",
+  "description": "A sharing module for AngularJS",
+  "authors": [
+    "Jeroen Hermans <jeroen@quivr.be"
+  ],
+  "keywords": [
+    "social",
+    "sharing",
+    "share",
+    "angular",
+    "angularjs"
+  ],
+  "main": [
+    "lib/angular-share.js"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/quivr/angular-share",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
