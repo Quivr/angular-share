@@ -110,6 +110,7 @@ You can set the social platform you want to share on using the `share-provider="
 - [Flipboard](#flipboard)
 - [Xing](#xing)
 - [HackerNews](#hacker-news)
+- [Mail](#mail)
 
 Please use the provider names as written above, the names are case-sensitive.
 
@@ -259,6 +260,16 @@ Method | Option | Type | Default | Description
   sharer	  | share-media=""  | URL    | false    | Set the media url to share
   sharer	  | share-follow="" | URL    | false    | Set the Xing page url which will be then suggested to you to follow
 
+####Mail
+
+Method | Option | Type | Default | Description
+------------- | ------------- | ------------- | ------------- | -------------
+  sharer	  | share-url="" 	| URL    | page URL | Set the url to share
+  sharer	  | share-text=""   | String | false    | Set the body of the mail
+  sharer	  | share-to=""  | String('comma,separated')    | false    | Set the recipients
+  sharer	  | share-cc="" | String('comma,separated')    | false    | Set the cc recipients
+  sharer	  | share-bcc="" | String('comma,separated')    | false    | Set the bcc recipients
+  sharer	  | share-subject="" | String    | false    | Set the subject of the mail
 
 ##Options
 
